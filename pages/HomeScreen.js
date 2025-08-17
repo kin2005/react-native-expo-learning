@@ -17,6 +17,10 @@ export default function ProfileScreen({ navigation }) {
       title="Go to Count"
       onPress={()=> navigation.navigate("Count")}
       />
+          <Button
+      title="Go to StyleSheet"
+      onPress={()=> navigation.navigate("StyleSheet")}
+      />
        </View>
     );
 }

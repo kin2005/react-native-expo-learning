@@ -3,6 +3,7 @@ import HomeScreen from '../pages/HomeScreen';
 import DatailsScreen from '../pages/DetailScreen';
 import ProfileScreen from '../pages/ProfileScreen';
 import CounterScreen from '../pages/CounterScreen';
+import StyleSheet from "../pages/StyleSheet";
 
 const Stack = createStackNavigator();
 
@@ -13,6 +14,7 @@ export default function navigation() {
             <Stack.Screen name="Details" component={DatailsScreen} />
             <Stack.Screen name="Profile" component={ProfileScreen} />
             <Stack.Screen name="Count" component={CounterScreen} />
+            <Stack.Screen name="StyleSheet" component={StyleSheet} />
         </Stack.Navigator>
     );
 }

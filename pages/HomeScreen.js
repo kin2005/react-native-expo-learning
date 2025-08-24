@@ -43,14 +43,23 @@ export default function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate("Flex-example")}
           color="#F44336"
         />
+      </View>
 
-        <View style={styles.buttonWrapper}>
+      <View style={styles.buttonWrapper}>
         <Button
           title="Go to Layout"
           onPress={() => navigation.navigate("Layout")}
-          color="#9C27B0"
+          color="#795548"
         />
       </View>
+
+      {/* 🔹 ปุ่มใหม่สำหรับไปหน้า LoginScreen */}
+      <View style={styles.buttonWrapper}>
+        <Button
+          title="Go to Login"
+          onPress={() => navigation.navigate("Login")}
+          color="#000"
+        />
       </View>
     </View>
   );
